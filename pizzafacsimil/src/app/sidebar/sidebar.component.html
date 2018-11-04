@@ -1,0 +1,41 @@
+
+<div style="text-align: right" class="dimensionnav">
+	<div class="contenitor">
+	<a href="#">
+		<img src="assets/img/PizzaFac-Simil.png" alt="logo" class="logo">
+	</a>
+	<button type="button" class="btn btn-outline-primary quadro" (click)="isCollapsed = !isCollapsed"
+	[attr.aria-expanded]="!isCollapsed" aria-controls="collapseExample">
+	<span class="dark-blue-text icon"><i class="fa fa-bars fa-1x"></i></span>
+	</button>
+	</div>
+</div>
+<div class="space"></div>
+<!--Bottoni menù-->
+ <div id="collapseExample" [ngbCollapse]="isCollapsed">
+	<div class="card">
+	  <div class="card-body">
+			<div id="firstbotton" class="dimension">
+				<a class="tabscriv">
+					<div class="dimensionbotton"><app-modal></app-modal></div>
+					
+				</a>
+			</div>
+			<div id="secondtbotton" class="dimension">
+				<a routerLink="/prenotazione" class="tabscriv">
+					<div class="dimensionbotton dimension1">Prenotazione</div>
+				</a>
+			</div>
+			<div id="thirdtbotton" class="dimension">
+				<a routerLink="/contatti" class="tabscriv">
+					<div class="dimensionbotton dimension1">Contatti</div>
+				</a>
+			</div>
+			<div id="thirdtbotton" class="dimension">
+				<a href="#" class="tabscriv">
+					<div class="dimensionbotton dimension1">Comunity</div>
+				</a>
+			</div>
+	  </div>
+	</div>
+  </div>

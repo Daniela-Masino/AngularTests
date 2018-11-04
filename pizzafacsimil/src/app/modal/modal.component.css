@@ -1,0 +1,22 @@
+.menu{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+    border-color: transparent;
+    padding: 0;
+    height: 50px;
+    width: 290px;
+    border-color: transparent;
+    background-color: transparent;
+    box-shadow: none;
+    transition: none;
+}
+
+.menu:hover{
+    color: #a30c33;
+    background-color: white;
+    border-color: white;
+
+}
