@@ -4,7 +4,6 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
-import { FormComponent } from './form/form.component';
 import { ModalComponent } from './modal/modal.component';
 import { AppRoutingModule, routingComponents} from './app-routing.module';
 
@@ -12,7 +11,6 @@ import { AppRoutingModule, routingComponents} from './app-routing.module';
   declarations: [
     AppComponent,
     SidebarComponent,
-    FormComponent,
     ModalComponent,
     routingComponents    
   ],
