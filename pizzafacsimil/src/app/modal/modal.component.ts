@@ -10,6 +10,7 @@ export class ModalComponent {
 
   closeResult: string;
 
+
   constructor(private modalService: NgbModal) { }
 
   open(content) {
@@ -33,4 +34,10 @@ export class ModalComponent {
       return  `with: ${reason}`;
     }
   }
+}
+
+class Pizza {
+  public name="";
+  public ingredienti=[]; 
+  public prezzo="";
 }

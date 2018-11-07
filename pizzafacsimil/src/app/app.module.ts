@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { ModalComponent } from './modal/modal.component';
 import { AppRoutingModule, routingComponents} from './app-routing.module';
+import { SocialComponent } from './social/social.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SidebarComponent,
     ModalComponent,
-    routingComponents    
+    routingComponents,
+    SocialComponent,    
   ],
   imports: [
     BrowserModule,

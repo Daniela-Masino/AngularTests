@@ -5,13 +5,15 @@ import { TavoloComponent } from './tavolo/tavolo.component';
 import { PrenotazioniComponent } from './prenotazioni/prenotazioni.component';
 import { BoxComponent } from './box/box.component';
 import { ContattiComponent } from './contatti/contatti.component';
+import { ComunityComponent } from './comunity/comunity.component';
 
 const routes: Routes = [
   {path:'', component: BoxComponent},
   {path: 'prenotazione', component: PrenotazioniComponent},
   {path:'prenotazionetavolo', component: TavoloComponent},
   {path:'prenotazionetakeaway', component: TakeawayComponent},
-  {path:'contatti', component: ContattiComponent}
+  {path:'contatti', component: ContattiComponent},
+  {path:'comunity', component: ComunityComponent}
 ];
 
 @NgModule({
@@ -19,4 +21,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-export const routingComponents=[BoxComponent, TavoloComponent,TakeawayComponent, PrenotazioniComponent, ContattiComponent]
+export const routingComponents=[BoxComponent, TavoloComponent,TakeawayComponent, PrenotazioniComponent, ContattiComponent, ComunityComponent]
