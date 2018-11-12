@@ -1,14 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import { Component} from '@angular/core';
 
 @Component({
   selector: 'app-takeaway',
   templateUrl: './takeaway.component.html',
-  styleUrls: ['./takeaway.component.css']
+  styleUrls: ['./takeaway.component.css'], 
 })
-export class TakeawayComponent implements OnInit {
+export class TakeawayComponent {
 
   constructor() { }
-
   ngOnInit() {
   }
 

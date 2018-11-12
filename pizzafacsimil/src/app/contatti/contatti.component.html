@@ -1,39 +1,46 @@
 <div class="container-fluid">
-    <h1>Modulo di contatto</h1>
+    <h1 class="contattotext">Modulo di contatto</h1>
     <form>
         <!--nome-->
         <div class="form-group casella">
             <label>Nome e Cognome</label>
-            <input type="text" class="form-control">
+            <input type="text" class="form-control border" placeholder="Scrivi il tuo nome e cognome">
         </div>
 
         <!--email-->
         <div class="form-group casella">
             <label>Email</label>
-            <input type="email" class="form-control">
+            <input type="email" class="form-control border" placeholder="Scrivi la tua email">
         </div>
 
         <!--numero telefono-->
         <div class="form-group casella">
             <label>Numero di Telefono</label>
-            <input type="tel" class="form-control">
+            <input type="tel" class="form-control border" placeholder="Scrivi il tuo numero di telefono">
         </div>
-
+        <br>
         <!--topic-->
         <div class="form-group">
-            <select class="custom-select">
+            <select class="custom-select border cursore">
                 <option selected>Sono interessato a...</option>
-                <option *ngFor="let topic of topics">{{topic}}</option>
+                <option *ngFor="let topic of topics" class="backg">{{topic}}</option>
             </select>
+        </div>
+
+        <!--textarea-->
+        <div class="form-group">
+        <textarea type="text" class="form-control textarea" placeholder="Lascia qui il tuo messaggio"></textarea>
         </div>
 
         <!--newsletter-->
         <div class="form-check mb-3" style="margin-left:20px;">
             <input type="checkbox" class="form-check-input">
-            <label class="form-check-label">Iscriviti alla nostra Newsletter</label>
+            <label class="form-check-label iscrizlabel">Iscriviti alla nostra Newsletter</label>
         </div>
 
         <!--button-->
-        <button class="btn btn-primary" type="submit">Invia</button>
+        <button class="btn btn-primary buttonstyle" type="submit">Invia</button>
     </form>
+    <br>
+    <br>
 </div>

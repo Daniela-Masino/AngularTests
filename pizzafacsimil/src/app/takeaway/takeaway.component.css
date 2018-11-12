@@ -1,0 +1,76 @@
+.buttonpizza{
+    background-color: #a30c33;
+    border-color: #a30c33;
+}
+
+.buttonpizza:hover{
+    background-color: #a30c33;
+    border-color: #a30c33;
+}
+
+.buttonpizza:focus{
+    box-shadow: none;
+    border-color: white;
+}
+
+
+::ng-deep .btn-link{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+::ng-deep .accordion .card{
+   width: 783px;
+   color: white;
+   background-color: transparent;
+   margin-top: 19px;
+}
+
+::ng-deep .btn.focus{
+    box-shadow: none;
+}
+
+::ng-deep .btn:focus{
+    box-shadow: none;
+}
+
+::ng-deep .btn-link:focus{
+    color:white;
+    text-decoration: none;
+    background-color: #a30c33;
+}
+
+::ng-deep .btn-link:hover{
+    color:white;
+    text-decoration: none;
+    background-color: #a30c33;
+}
+
+::ng-deep .card-header{
+   background-color: #a30c33;
+}
+
+.pizza{
+    text-align: center;
+    border: 8px solid;
+    border-color: transparent;
+}
+
+.pizza1{
+    background-color: white;
+}
+
+.pizza2{
+    color: #a30c33;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.pizza3{
+    color: #a30c33;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

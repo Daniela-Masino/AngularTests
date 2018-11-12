@@ -1,12 +1,9 @@
-<p class="comunitytext">Cosa dite di noi</p>
+<h1 class="comunitytext">Cosa dite di noi</h1>
 <textarea #textareaInput class="tableinvio" placeholder="Scrivi il tuo commento"></textarea>
 <br><br>
 <button class="btn btn-primary buttontable" type="submit" (click)="aggiornaUltimiCommenti(textareaInput.value)">Invia</button>
 <br><br>
-<table class="tablecomm">
-  <tr>
-    {{ultimicommenti}}
-  </tr>
-
-</table>
+<div class="tablecomm">
+      {{ultimicommenti}}
+  </div>
 

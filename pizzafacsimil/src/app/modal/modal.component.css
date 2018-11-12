@@ -1,3 +1,7 @@
+.cursor{
+    cursor: pointer;
+}
+
 .menu{
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -18,5 +22,11 @@
     color: #a30c33;
     background-color: white;
     border-color: white;
+
+}
+
+::ng-deep .modaltitle .body{
+    color: #a30c33;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }

@@ -1,3 +1,54 @@
+.backg:focus-within{
+    background-color: #a30c33;
+}
+
+.border:focus{
+   
+    border-color: #a30c33;
+}
+
+.buttonstyle{
+    background-color: #a30c33;
+    border-color: #a30c33;
+}
+
+.buttonstyle:hover{
+    background-color: #a30c33;
+    border-color: #a30c33;
+}
+
+.buttonstyle:focus{
+    box-shadow: none;
+    border-color: white;
+}
+
 .casella{
     margin-right: 20px;
+}
+
+.contattotext{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bond;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    text-shadow: -1px 0 #a30c33, 0 1px #a30c33, 1px 0 #a30c33, 0 -1px #a30c33;
+}
+
+.cursore{
+    cursor: pointer;
+}
+
+.iscrizlabel{
+    text-shadow: -1px 0 #a30c33, 0 1px #a30c33, 1px 0 #a30c33, 0 -1px #a30c33;
+    color: white; 
+    cursor: default;
+}
+
+.textarea{
+    border: 1px solid #a30c33; 
+    border-radius: .25rem;
+    height: 200px;
+    width: 783px;
+    margin: 0px;
 }

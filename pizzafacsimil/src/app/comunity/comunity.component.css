@@ -17,14 +17,16 @@
 }
 
 .tableinvio{
-    border: 4px solid #a30c33; 
+    border: 1px solid #a30c33; 
+    border-radius: .25rem;
     height: 200px;
-    width: 800px;
+    width: 783px;
 }
 
 .tablecomm{
-    border: 4px solid #a30c33; 
+    border: 1px solid #a30c33; 
+    border-radius: .25rem;
     background-color: transparent;
-    height: 600px;
-    width: 800px;
+    height: 400px;
+    width: 783px;
 }
